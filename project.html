@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+</head>
+
+<body>
+    <a-scene>
+        <!-- Camera -->
+        <a-entity position="0 0 10">
+            <a-camera></a-camera>
+        </a-entity>
+
+        <a-sky src="https://cdn.glitch.com/850dd813-e5e9-4dd0-9751-38981ae74172%2Fvia_lactea.png?v=1604296331712">
+        </a-sky>
+
+        <a-plane position="-1 -1 0" rotation="0 0ssss 0" width="15" height="15" color="#7BC8A4"></a-plane>
+        <a-plane position="-1 -1 0" rotation="-90 0 0" width="15" height="15" color="blue" ></a-plane>
+
+        <a-plane position="-1 -0.5 2" rotation="-90 0 0" width="5" height="3" color="red"></a-plane>
+        <a-cylinder position="-1 0.75 2" color = "yellow" radius="0.5" height="3"></a-sphere>
+        <a-cylinder position="0 1.5 -0.5" color = "coral" radius="2" height="0.25"></a-sphere>
+        <a-cylinder position="4 -2 1" color = "coral" radius="1" height="3.5"></a-sphere>
+        <a-cylinder position="-8 0 0" color = "coral" radius="1" height="3.5"></a-sphere>
+
+    </a-scene>
+
+</body>
+</html>
